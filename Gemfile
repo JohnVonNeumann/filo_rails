@@ -32,6 +32,13 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Use haml to pretty up html
+gem 'haml', '~> 4.0', '>= 4.0.7'
+# use simple form to easily add gem bundled form functionality
+gem 'simple_form', '~> 3.4'
+# use devise for out of the box auth
+gem 'devise', '~> 4.2'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
