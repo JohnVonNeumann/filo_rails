@@ -1,0 +1,7 @@
+= simple_form_for @doc do |f|
+  = f.input :title, label: 'Document Title:',
+  = f.input :content
+  = f.input :email, placeholder: 'user@domain.com'
+  = f.input :remember_me, inline_label: 'Yes, remember me'
+  = f.button :submit
+= end
